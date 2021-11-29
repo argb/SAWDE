@@ -1,0 +1,21 @@
+This is a Sub-Array-With-N-Different-Elements problem.
+
+In real life it's related with the model like: n days to visit more locations
+
+比如旅行社每天有日程安排：
+第一天： 景点A
+第二天： 景点B
+第三天： 景点C
+第四天： 景点A
+第五天： 景点E
+第六天： 景点C
+。。。。。。
+旅行社的日程安排是固定的！
+
+假如你现在有N天假期，那么如果你要游览K个不同的景点，最少需要几天?
+
+花最少的时间玩最多的地方，从哪一天切入不较好？
+
+基本思路：
+slide window + state transition
+
